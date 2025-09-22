@@ -1,0 +1,241 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>甜棠花社</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            background: linear-gradient(to bottom, #e0ff9b, #ffff7f);  
+            margin: 0;  
+            padding: 0;  
+        }  
+        .header {  
+            display: flex;  
+            align-items: center;  
+            background: linear-gradient(to bottom, green, yellow);  
+            padding: 15px 20px;  
+        }  
+        .logo {  
+            display: flex;  
+            align-items: center;  
+        }  
+        .logo-text {  
+            font-size: 28px;  
+            font-weight: bold;  
+            color: black;  
+            margin-right: 20px;  
+        }  
+        .flower-icon {  
+            width: 30px;  
+            height: 30px;  
+            background: radial-gradient(circle, pink, white);  
+            border-radius: 50%;  
+            border: 2px dotted green;  
+        }  
+        .navbar {  
+            display: flex;  
+            justify-content: space-around;  
+            width: 70%;  
+        }  
+        .navbar a {  
+            color: black;  
+            text-decoration: none;  
+            font-weight: bold;  
+        }  
+        .section {  
+            margin: 20px;  
+            padding: 15px;  
+            border: 1px solid #d9ff85;  
+            border-radius: 10px;  
+            background-color: white;  
+        }  
+        .image-box {  
+            display: flex;  
+            flex-direction: column;  
+            align-items: center;  
+            margin: 10px;  
+            padding: 20px;  
+        }  
+        .main-image {  
+            width: 100%;  
+            height: 400px;  
+            object-fit: cover;  
+            border-radius: 10px;  
+        }  
+        .story-image {  
+            width: 40%;  
+            height: auto;  
+            border-radius: 10px;  
+            margin: 20px;  
+        }  
+        .content-row {  
+            display: flex;  
+            margin-bottom: 15px;  
+        }  
+        .story-text {  
+            color: #87aa52;  
+            font-size: 24px;  
+            font-weight: bold;  
+            margin: 20px 0;  
+            text-align: center;  
+        }  
+        .story-content {  
+            width: 60%;  
+            margin: 20px;  
+            font-size: 16px;  
+            line-height: 1.6;  
+        }  
+        .section-title {  
+            color: #87aa52;  
+            font-size: 24px;  
+            margin-bottom: 10px;  
+            font-weight: bold;  
+            text-align: center;  
+        }  
+        .image-row {  
+            display: flex;  
+            justify-content: space-around;  
+            flex-wrap: wrap;  
+            width: 100%;  
+            margin: 15px 0;  
+        }  
+        .image-placeholder {  
+            width: 200px;  
+            height: 200px;  
+            border: 2px solid #ccc;  
+            border-radius: 10px;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            margin: 10px;  
+            background-color: #f0fff0;  
+			overflow: hidden;
+	
+        }  
+		
+		 .image-placeholder img {  
+		    width: 100%;  
+		    height: 100%;  
+		    object-fit: cover;  
+		
+		}  
+        .circle-placeholder {  
+            width: 100px;  
+            height: 100px;  
+            border: 2px solid #ccc;  
+            border-radius: 50%;  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            margin: 10px;  
+            background-color: #f0fff0;  
+			text-align: center;  
+		    padding: 5px; 
+        }  
+        .footer {  
+            display: flex;  
+            justify-content: space-around;  
+            background: linear-gradient(to bottom, green, yellow);  
+            padding: 15px;  
+            color: black;  
+        }  
+        .footer a {  
+            color: black;  
+            text-decoration: none;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <div class="header">  
+        <div class="logo">  
+            <div class="flower-icon"></div>  
+            <div class="logo-text">甜棠花社</div>  
+        </div>  
+        <div class="navbar">  
+            <a href="#">首页</a>  
+            <a href="#">花束</a>  
+            <a href="#">礼品</a>  
+            <a href="#">鲜花文化</a>  
+            <a href="#">关于我们</a>  
+            <a href="#">登录</a>  
+        </div>  
+    </div>  
+    <div class="section">  
+        <div class="image-box">  
+            <img src="D:\html\hua.jpg"" alt="鲜花背景">  
+            <p class="story-text">鲜花背后的文化故事</p>  
+            <div class="content-row">  
+                <img src="D:\html\90.jpg"" class="story-image" alt="鲜花故事">  
+                <div class="story-content">  
+    鲜花从不是奢侈品，而是生活里触手可及的仪式感。它会在清晨唤醒你的感官：茉莉的清甜漫进鼻腔，让惺忪的睡眼渐渐明亮；它会在午后陪伴你的悠闲：捧一本好书坐在芍药旁，看阳光透过花瓣的纹路，在书页上投下斑驳的光影，连时间都变得缓慢而柔软；它更会在深夜治愈你的情绪：当工作的压力、生活的琐碎让人烦躁时，低头看见桌角洋桔梗舒展的花瓣，仿佛有一只温柔的手，轻轻抚平了心底的褶皱。​
+    每一种花都有自己的 “语言”，藏着不同的故事。玫瑰不止是爱情的象征，一朵浅粉玫瑰送给刚毕业的自己，是 “愿你永远保持赤诚与热烈”；一束白玫瑰送给生病的朋友，是 “愿你如花瓣般纯净，早日康复”。向日葵永远朝着阳光，像极了身边那些乐观的人，总能在困境中找到方向；铃兰带着细碎的小铃铛，是春日里的惊喜，仿佛轻轻一碰，就能摇出满世界的美好。就连不起眼的小野花也自有力量 —— 路边采撷的蒲公英，吹散时带着 “勇敢去闯” 的期许；田埂上的小雏菊，用顽强的生命力告诉我们：平凡也能绽放光芒。​
+    我们爱花，不仅爱它盛放时的绚烂，也爱它生长中的坚韧。从花农在田间悉心照料，到花艺师精心修剪搭配，再到我们亲手插入花瓶、每日换水，每一个环节都是对生活的珍视。看着花苞从紧紧包裹到缓缓舒展，最终绽放出最美的姿态，就像见证一场小小的奇迹 —— 原来只要用心呵护，美好就会慢慢生长。哪怕有一天花瓣开始凋零，也不必遗憾，因为它曾用尽全力装点过我们的时光，留下了芬芳的记忆。​
+    往后的日子里，不妨多与鲜花相伴：在阳台种几盆喜欢的花，让清晨有花香唤醒；在朋友生日时送一束花，让祝福带着温度；在平凡的日子里给自己买一束花，让生活多一份仪式感。毕竟，鲜花是写给生活的诗，每一片花瓣都在诉说：用心生活，就能与美好不期而遇。​
+    ​
+                </div>  
+            </div>  
+        </div>  
+    </div>  
+    <div class="section">  
+      <p class="section-title">神奇的花语世界</p>  
+             <div class="image-row">  
+                 <div class="flower-item">
+                     <div class="circle-placeholder">
+						  <img src="D:\html\玫瑰.jpg"" height="150px" width="150px" alt="玫瑰">
+                     </div>
+                     <div class="flower-description">玫瑰<br>代表爱情与热情</div>
+                 </div>  
+                 <div class="flower-item">
+                     <div class="circle-placeholder">
+                         <img src="D:\html\百合.jpg"" height="150px" width="150px" alt="百合花">
+                     </div>
+                     <div class="flower-description">百合<br>象征纯洁与祝福</div>
+                 </div>  
+                 <div class="flower-item">
+                     <div class="circle-placeholder">
+                         <img src="D:\html\多种花.jpg"" height="150px" width="150px" alt="向日葵">
+                     </div>
+                     <div class="flower-description">向日葵<br>寓意阳光与忠诚</div>
+                 </div>  
+             </div>  
+         </div>  
+    <div class="section">  
+        <p class="section-title">鲜花的艺术之美</p>  
+ <div class="image-row">  
+             <div class="image-placeholder">  
+                 <img src="D:\html\1花.jpg"" alt="玫瑰主题插花花束">  
+             </div>   
+             <div class="image-placeholder">  
+                 <img src="D:\html\2花.jpg"" alt="百合主题插花花束">  
+             </div>   
+             <div class="image-placeholder">  
+                 <img src="D:\html\3花.jpg"" alt="混合花材插花花束">  
+             </div>
+        </div>  
+    </div>  
+    <div class="footer">  
+        <div>  
+            <p><strong>关于甜棠花社</strong>  
+甜棠花社成立于2025年，致力于为顾客提供高品质的花艺产品。</p>  
+        </div>  
+        <div>  
+            <p><strong>快速链接</strong>  
+<a href="#">首页</a>  
+<a href="#">所有商品</a>  
+<a href="#">新品上市</a></p>  
+        </div>  
+        <div>  
+            <p><strong>客户服务</strong>  
+<a href="#">我的账户</a>  
+<a href="#">订单查询</a>  
+<a href="#">配送信息</a></p>  
+        </div>  
+        <div>  
+            <p><strong>联系我们</strong>  
+翻斗大街翻斗花园2号楼1001室  
+422-998-8888</p>  
+        </div>  
+    </div>  
+</body>  
+</html>
